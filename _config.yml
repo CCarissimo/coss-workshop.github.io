@@ -5,6 +5,8 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
 
+plugins: [jekyll-include-cache]
+
 # Build settings
 markdown: kramdown
 sass:
